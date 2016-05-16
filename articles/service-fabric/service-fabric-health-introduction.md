@@ -148,7 +148,7 @@ The following is an excerpt from an application manifest:
             <ServiceTypeHealthPolicy ServiceTypeName="BackEndServiceType"
                    MaxPercentUnhealthyServices="20"
                    MaxPercentUnhealthyPartitionsPerService="0"
-                   MaxPercentUnhealthyReplicasPerPartition="0">
+                   MaxPercentUnhealthyReplicasPerPartition="0"/>
             </ServiceTypeHealthPolicy>
         </HealthPolicy>
     </Policies>
